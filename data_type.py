@@ -1,0 +1,24 @@
+x=10
+print(type(x),x)
+x=1j
+print(type(x),x)
+x="Hello world"
+print(type(x),x)
+x=["apple","mango","Cherry"]
+print(type(x),x)
+x=("apple","mango","Cherry")
+print(type(x),x)
+x={"apple","mango","Cherry"}
+print(type(x),x)
+x=frozenset({"apple","mango","Cherry"})
+print(type(x),x)
+x=True
+print(type(x),x)
+x=b"Hello"
+print(type(x),x)
+x=bytearray(5)
+print(type(x),x)
+x=memoryview(bytes(5))
+print(type(x),x)
+x=None
+print(type(x),x)
